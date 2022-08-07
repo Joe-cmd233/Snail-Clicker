@@ -1,12 +1,5 @@
 var audio = new Audio("sounds/kick.mp3");
 
-function a(amount) {
-        audio.play();
-        amount += 9999999999999999
-        this.totalShells += amount
-        display.updateShells()
-    }
-
 let game = {
 
     shells: 0,
@@ -30,6 +23,14 @@ let game = {
         return shellsPerSecond
     }
 }
+
+function a() {
+        audio.play();
+        amount += 9999999999999999
+        this.totalShells += amount
+        display.updateShells()
+    }
+
 
 let building = {
     name: [
