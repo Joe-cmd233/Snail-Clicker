@@ -2,6 +2,11 @@ html {
     background-color: #cacaca;
 }
 
+#d {
+    width:10;
+    height:10;
+}
+
 #music {
     width: 1px;
     height: 1px;
