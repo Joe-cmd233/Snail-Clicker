@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snail Clicker</title>
+    <link rel="icon" href="images/snail.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sectionLeft unselectable">
+        <div class="shellContainer">
+            <span id="shells">0</span> shells <br>
+            <span id="shellspersecond">0</span> shells per second
+        </div>
+        <br>
+        <div id="clicker"></div>
+
+        <div class="sectionFooter">
+            <h5>Snail Clicker</h5>
+        </div>
+    </div>
+    
+    <audio id="music" controls loop autoplay height="" width="">
+        <source src="sounds/music1.wav" type="audio/wav" />
+      </audio>
+
+    <div class="sectionRight unselectable">
+        <div id="upgradeContainer"></div>
+        <div id="shopContainer"></div>
+        <div id="achievementContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

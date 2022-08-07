@@ -1,0 +1,131 @@
+html {
+    background-color: #cacaca;
+}
+
+#music {
+    width: 1px;
+    height: 1px;
+}
+
+.sectionLeft {
+    float: left;
+    width: 80%;
+    text-align: center;
+}
+
+.sectionRight {
+    float: right;
+    width: 20%;
+}
+
+.baconContainer {
+    background-color: rgba(238, 238, 238, 0.6);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#clicker {
+    background-image: url('./images/snail.png');
+    background-size: contain;
+    height: 197px;
+    width: 270px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#clicker:hover {
+    transform: scale(110%);
+}
+
+#clicker:active {
+    transform: scale(90%);
+}
+
+#clicker > .number {
+    z-index: 99;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    position: absolute;
+}
+
+.shopButton {
+    background-color: #b5b5b5;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.shopButton:hover {
+    background-color: #c7c7c7;
+    transition: all .2s ease-in-out;
+}
+
+.shopButton #image {
+    width: 25%;
+}
+
+.shopButton img {
+    height: 64px;
+    width: 64px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+}
+
+.sectionFooter {
+    text-align: start;
+    margin-top: 20%;
+}
+
+.sectionFooter button {
+    cursor: pointer;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#upgradeContainer img {
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#upgradeContainer img:hover {
+    transform: scale(1.10);
+}
+
+#achievementContainer img {
+    height: 64px;
+    width: 64px;
+    border: 3px solid #FFD700;
+    margin: 0px 2px 0px 2px;
+}
